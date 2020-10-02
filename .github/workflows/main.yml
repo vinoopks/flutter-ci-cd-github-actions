@@ -24,4 +24,4 @@ jobs:
       with:
         allowUpdates: true
         artifacts: "build/app/outputs/apk/debug/*.apk"
-        token: ${{ secrets.TOKEN }}
+        token: ${{ secrets.GITHUB_TOKEN }}
